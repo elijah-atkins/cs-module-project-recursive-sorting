@@ -13,7 +13,7 @@ class RecursiveSortingTests(unittest.TestCase):
         self.assertEqual(binary_search(arr2, 0, 0, len(arr2)-1), -1)
 
     # Uncomment this test to test your agnostic binary search implementation
-    def test_agnostic_binary_search(self):
+    # def test_agnostic_binary_search(self):
         ascending = [2, 4, 12, 14, 17, 30, 46, 47, 51, 54, 61]
         descending = [101, 98, 57, 49, 45, 13, -3, -17, -61]
 
